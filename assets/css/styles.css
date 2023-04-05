@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
 
 /* Color Theme Swatches in Hex */
 .gr\\u00F8n-1-hex {
@@ -197,6 +197,12 @@ main {
     gap: 40px;
 }
 
+.cartas .card p{
+    font-family: 'Recursive', sans-serif;
+    text-align: justify;
+}
+
+
 .card-animation-cont {
 
     border-radius: 10px;
@@ -387,12 +393,11 @@ span {
 .adress {
     padding: 0;
     margin: 0 auto;
-    background-color: #EAF3ED;
     text-align: center;
 }
 
 .adress .card {
-    background-color: #EAF3ED;
+    background-color: rgb(225, 225, 225);
     border: #781A40 solid;
     padding: 20px;
     height: auto;
@@ -402,10 +407,14 @@ span {
     text-align: center;
 }
 
+.card-body {
+    background-color: rgb(225, 225, 225);
+}
+
 .adress .img-fluid {
+    background-color: rgb(225, 225, 225);
     border-radius: 10px;
     width: auto;
-    background-color: #EAF3ED;
 }
 
 @media (max-width: 800px) {
@@ -447,7 +456,7 @@ span {
 }
 
 img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
 }
 
 .mesa div{
